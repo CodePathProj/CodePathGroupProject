@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# Fresh Tomotato
+# Music Ranker
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-The app will give users two movies to pick which one they perfer. Depending on the user's choice we increase or decrease the rating of the movie.
+The app will give users two song to pick which one they perfer. Depending on the user's choice we increase or decrease the rating of the song.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Entertainment/Movie
+- **Category:** Entertainment/Music
 - **Mobile:** This app would be primarily developed for mobile use but would perhaps later be developed for computer use. Functionality wouldn’t be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Allows user to choose between different movies, and generate ranking of movies based on preferences.
+- **Story:** Allows user to choose between different songs, and generate ranking of movies based on preferences.
 - **Market:** Any individual who wants to look at movie ranking can use this app.
 - **Habit:** This app can be used often or unoften depending on the user's life.
-- **Scope:** First we can just have ranking of movies, but later on pair users depending on similarites of movies preferences. 
+- **Scope:** First we can just have ranking of songs, but later on pair users depending on similarites of music preferences. 
 
 ## Product Spec
 
@@ -28,22 +28,33 @@ The app will give users two movies to pick which one they perfer. Depending on t
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User logs in to access previous data and preference settings
+* User picks which song out of two they like.
+* User can see the ranking of the songs they clicked on.
+* Profile pages for each user
+* Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can preview the music and listen to the first 15 seconds
+* User can click on link to the full music 
+* User can see recommended songs
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
+* Login 
+* Register - User signs up or logs into their account
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information.
    * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Main Screen - user can see two songs to pick from 
+   * Upon selecting music choice users can see the ranking of the songs
+* Profile Screen 
+   * Allows user to upload a photo and fill in information that is interesting to them
+* Song Preview Screen.
+   * Allows user to be listen to 15 seconds of the song to make thier choice.
+* Settings Screen
+   * Lets people change language, and app notification settings.
+
 
 ### 3. Navigation
 
