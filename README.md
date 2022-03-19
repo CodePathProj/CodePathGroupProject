@@ -60,18 +60,21 @@ The app will give users two song to pick which one they perfer. Depending on the
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Login 
+* Music selection
+* Profile (has ranking)
+* Settings
+
+Optional:
+* Recommmended 
+* Seek
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Log-in -> Account creation if no log in is available
+* Music Selection -> Jumps to profile after finished
+* Profile -> Text field to be modified and ranking list view. 
+* Settings -> Toggle settings
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
