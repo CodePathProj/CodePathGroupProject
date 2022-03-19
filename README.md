@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# Fresh Tomotato
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+The app will give users two movies to pick which one they perfer. Depending on the user's choice we increase or decrease the rating of the movie.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Entertainment/Movie
+- **Mobile:** This app would be primarily developed for mobile use but would perhaps later be developed for computer use. Functionality wouldn’t be limited to mobile devices, however mobile version could potentially have more features.
+- **Story:** Allows user to choose between different movies, and generate ranking of movies based on preferences.
+- **Market:** Any individual who wants to look at movie ranking can use this app.
+- **Habit:** This app can be used often or unoften depending on the user's life.
+- **Scope:** First we can just have ranking of movies, but later on pair users depending on similarites of movies preferences. 
 
 ## Product Spec
 
