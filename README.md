@@ -85,10 +85,18 @@ Optional:
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Song
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | songID        | String   | unique id for the each song (default field) |
+   | user          | Pointer to User| identifier for which user is playing the ranking game |
+   | image         | File     | image of the song |
+   | songTitle     | String   | song title |
+   | albumTitle    | String   | album title |
+   | eloNumber     | Number   | ranking number of the song, based on chess ranking system |
+   
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+
