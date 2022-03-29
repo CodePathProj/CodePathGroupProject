@@ -80,10 +80,6 @@ Optional:
 [Add picture of your hand sketched wireframes in this section]
 <img src="assets/images/wireframe.jpg" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
 ## Schema 
 ### Models
 #### Song
