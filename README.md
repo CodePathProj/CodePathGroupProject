@@ -96,3 +96,13 @@ Optional:
 ### Networking
 #### List of network requests by screen
 
+Home Feed Screen
+(Read/GET) Query all songs to later iterate through and show to user
+(Create/POST) Create a new ranking for a given song
+(Create/POST) Create a new comment on a post
+
+Profile Screen
+(Read/GET) Query logged in user object
+(Update/PUT) Update user profile image
+(Create/POST) Create the list of ranking of the songs
+
