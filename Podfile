@@ -9,6 +9,8 @@ target 'MusicRanker' do
   pod 'AlamofireImage'
   pod 'MessageInputBar'
   pod 'Parse'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
 
   target 'MusicRankerTests' do
     inherit! :search_paths

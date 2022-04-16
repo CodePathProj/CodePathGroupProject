@@ -21,6 +21,7 @@
 		BB9DC222280A393F000C3860 /* MusicRankerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC221280A393F000C3860 /* MusicRankerUITests.swift */; };
 		BB9DC224280A393F000C3860 /* MusicRankerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC223280A393F000C3860 /* MusicRankerUITestsLaunchTests.swift */; };
 		BBF255E3280B382400AE6041 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF255E2280B382400AE6041 /* LoginViewController.swift */; };
+		BBF255E5280B465000AE6041 /* SpotifyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF255E4280B465000AE6041 /* SpotifyConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		BB9DC221280A393F000C3860 /* MusicRankerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRankerUITests.swift; sourceTree = "<group>"; };
 		BB9DC223280A393F000C3860 /* MusicRankerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRankerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BBF255E2280B382400AE6041 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBF255E4280B465000AE6041 /* SpotifyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyConstants.swift; sourceTree = "<group>"; };
 		FF332A66A0AB3B55EB8B4434 /* Pods-MusicRanker-MusicRankerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicRanker-MusicRankerUITests.release.xcconfig"; path = "Target Support Files/Pods-MusicRanker-MusicRankerUITests/Pods-MusicRanker-MusicRankerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 				BB9DC20E280A393E000C3860 /* Info.plist */,
 				BB9DC206280A3936000C3860 /* MusicRanker.xcdatamodeld */,
 				BBF255E2280B382400AE6041 /* LoginViewController.swift */,
+				BBF255E4280B465000AE6041 /* SpotifyConstants.swift */,
 			);
 			path = MusicRanker;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 			files = (
 				BB9DC208280A3936000C3860 /* MusicRanker.xcdatamodeld in Sources */,
 				BB9DC202280A3936000C3860 /* ViewController.swift in Sources */,
+				BBF255E5280B465000AE6041 /* SpotifyConstants.swift in Sources */,
 				BB9DC1FE280A3936000C3860 /* AppDelegate.swift in Sources */,
 				BBF255E3280B382400AE6041 /* LoginViewController.swift in Sources */,
 				BB9DC200280A3936000C3860 /* SceneDelegate.swift in Sources */,

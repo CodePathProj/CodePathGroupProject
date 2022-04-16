@@ -11,17 +11,6 @@ import WebKit
 
 class LoginViewController: UIViewController {
     
-    
-    struct SpotifyConstants {
-        
-        static let CLIENT_ID = "847a722a477f4d54a3aae8949e99562a"
-        static let SESSION_KEY = "spotifySessionKey"
-        static let REDIRECT_URI = "652f8a57cc584798826ccb50342a0dcc"
-        static let SCOPE = "user-read-email"
-        
-    }
-    
-    
     var spotifyId = ""
     var spotifyDisplayName = ""
     var spotifyEmail = ""
@@ -75,7 +64,7 @@ class LoginViewController: UIViewController {
         spotifyVC.navigationItem.title = "spotify.com"
         navController.navigationBar.isTranslucent = false
         navController.navigationBar.tintColor = UIColor.white
-        navController.navigationBar.barTintColor = UIColor.colorFromHex("#1DB954")
+        navController.navigationBar.barTintColor = UIColor(red: 0.11, green: 0.73, blue: 0.33, alpha: 1.00)
         navController.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
         navController.modalTransitionStyle = .coverVertical
 
@@ -93,8 +82,8 @@ class LoginViewController: UIViewController {
 
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "detailseg" {
-            let DestView = segue.destination as! DetailsViewController
+        if segue.identifier == "loginSegue" {
+            let DestView = segue.destination as! ViewController
             DestView.spotifyId = self.spotifyId
             DestView.spotifyDisplayName = self.spotifyDisplayName
             DestView.spotifyEmail = self.spotifyEmail
@@ -170,7 +159,7 @@ extension LoginViewController: WKNavigationDelegate {
                 print("Spotify Profile Avatar URL: \(spotifyAvatarURL ?? "")")
                 self.spotifyAvatarURL = spotifyAvatarURL
                 DispatchQueue.main.async {
-                    self.performSegue(withIdentifier: "detailseg", sender: self)
+                    self.performSegue(withIdentifier: "loginSegue", sender: self)
                 }
             }
         }
