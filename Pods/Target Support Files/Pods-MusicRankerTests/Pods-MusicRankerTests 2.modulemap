@@ -1,0 +1,6 @@
+framework module Pods_MusicRankerTests {
+  umbrella header "Pods-MusicRankerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

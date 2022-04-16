@@ -53,7 +53,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="onLoginButton:" destination="Bbo-p8-JMC" eventType="touchUpInside" id="5SU-ve-iDC"/>
+                                    <action selector="onLogin:" destination="Bbo-p8-JMC" eventType="touchUpInside" id="9QJ-cF-AqC"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jaA-Hp-bcR">
@@ -120,6 +120,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="QD4-Mt-Buj"/>
                     <connections>
+                        <outlet property="loginButton" destination="rdb-lN-Gcd" id="SNO-3l-79A"/>
+                        <outlet property="onLogin" destination="CZP-q3-cIC" id="9CJ-gb-cWB"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="loginSegue" id="y8A-gM-TUo"/>
                     </connections>
                 </viewController>
