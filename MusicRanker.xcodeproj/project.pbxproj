@@ -20,6 +20,7 @@
 		BB9DC218280A393F000C3860 /* MusicRankerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC217280A393F000C3860 /* MusicRankerTests.swift */; };
 		BB9DC222280A393F000C3860 /* MusicRankerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC221280A393F000C3860 /* MusicRankerUITests.swift */; };
 		BB9DC224280A393F000C3860 /* MusicRankerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC223280A393F000C3860 /* MusicRankerUITestsLaunchTests.swift */; };
+		BBF255E3280B382400AE6041 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF255E2280B382400AE6041 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		BB9DC21D280A393F000C3860 /* MusicRankerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicRankerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9DC221280A393F000C3860 /* MusicRankerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRankerUITests.swift; sourceTree = "<group>"; };
 		BB9DC223280A393F000C3860 /* MusicRankerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRankerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBF255E2280B382400AE6041 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FF332A66A0AB3B55EB8B4434 /* Pods-MusicRanker-MusicRankerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicRanker-MusicRankerUITests.release.xcconfig"; path = "Target Support Files/Pods-MusicRanker-MusicRankerUITests/Pods-MusicRanker-MusicRankerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 				BB9DC20B280A393E000C3860 /* LaunchScreen.storyboard */,
 				BB9DC20E280A393E000C3860 /* Info.plist */,
 				BB9DC206280A3936000C3860 /* MusicRanker.xcdatamodeld */,
+				BBF255E2280B382400AE6041 /* LoginViewController.swift */,
 			);
 			path = MusicRanker;
 			sourceTree = "<group>";
@@ -157,7 +160,6 @@
 				7C4D8A4945F0B809CC8A4115 /* Pods-MusicRankerTests.debug.xcconfig */,
 				1B917A7CC740B55CE4803CE9 /* Pods-MusicRankerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -413,6 +415,7 @@
 				BB9DC208280A3936000C3860 /* MusicRanker.xcdatamodeld in Sources */,
 				BB9DC202280A3936000C3860 /* ViewController.swift in Sources */,
 				BB9DC1FE280A3936000C3860 /* AppDelegate.swift in Sources */,
+				BBF255E3280B382400AE6041 /* LoginViewController.swift in Sources */,
 				BB9DC200280A3936000C3860 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

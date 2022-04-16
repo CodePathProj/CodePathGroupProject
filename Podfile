@@ -8,6 +8,7 @@ target 'MusicRanker' do
   # Pods for MusicRanker
   pod 'AlamofireImage'
   pod 'MessageInputBar'
+  pod 'Parse'
 
   target 'MusicRankerTests' do
     inherit! :search_paths
