@@ -3,6 +3,22 @@ Original App Design Project - README Template
 
 # Music Ranker
 
+### User Stories
+
+#### REQUIRED (10pts)
+- [X] User can login and stay logged in
+- [X] User can see a profile picture
+- [ ] User can view and select songs
+- [ ] User can see the ranking based on their preference
+
+#### BONUS
+- [ ] User can see a detailed screen with details about a song
+- [ ] User can play 15 seconds of the song to get to know the song
+
+### App Walkthrough GIF
+
+<img src="" width=250><br>
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
