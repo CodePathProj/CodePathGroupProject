@@ -8,6 +8,7 @@ Original App Design Project - README Template
 #### REQUIRED (10pts)
 - [X] User can login and stay logged in
 - [X] User can see a profile picture
+- [X] Make a launch screen
 - [ ] User can view and select songs
 - [ ] User can see the ranking based on their preference
 
@@ -17,7 +18,7 @@ Original App Design Project - README Template
 
 ### App Walkthrough GIF
 
-<img src="" width=250><br>
+<img src="musicranker.gif" width=250><br>
 
 ## Table of Contents
 1. [Overview](#Overview)
