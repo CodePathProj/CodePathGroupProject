@@ -10,6 +10,7 @@
 		3108904B4682F49C3DAEF8EE /* Pods_MusicRankerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5572AE7B42840E3CD7F908F2 /* Pods_MusicRankerTests.framework */; };
 		59EA53AA8B45EB1156F7F1BA /* Pods_MusicRanker_MusicRankerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EA737493BA0A6C22104B16 /* Pods_MusicRanker_MusicRankerUITests.framework */; };
 		7E07DE780D3B3D869931BA55 /* Pods_MusicRanker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A76EED7D0C3C434CB9FB29F /* Pods_MusicRanker.framework */; };
+		BB2BBEB02811F62B006D0B9E /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BBEAF2811F62A006D0B9E /* RankViewController.swift */; };
 		BB9DC1FE280A3936000C3860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC1FD280A3936000C3860 /* AppDelegate.swift */; };
 		BB9DC200280A3936000C3860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC1FF280A3936000C3860 /* SceneDelegate.swift */; };
 		BB9DC202280A3936000C3860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DC201280A3936000C3860 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		56EA737493BA0A6C22104B16 /* Pods_MusicRanker_MusicRankerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicRanker_MusicRankerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AC4CB1BA67D450070E4A05 /* Pods-MusicRanker-MusicRankerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicRanker-MusicRankerUITests.debug.xcconfig"; path = "Target Support Files/Pods-MusicRanker-MusicRankerUITests/Pods-MusicRanker-MusicRankerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C4D8A4945F0B809CC8A4115 /* Pods-MusicRankerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicRankerTests.debug.xcconfig"; path = "Target Support Files/Pods-MusicRankerTests/Pods-MusicRankerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2BBEAF2811F62A006D0B9E /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
 		BB9DC1FA280A3936000C3860 /* MusicRanker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicRanker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9DC1FD280A3936000C3860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB9DC1FF280A3936000C3860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				BB9DC206280A3936000C3860 /* MusicRanker.xcdatamodeld */,
 				BBF255E2280B382400AE6041 /* LoginViewController.swift */,
 				BBF255E4280B465000AE6041 /* SpotifyConstants.swift */,
+				BB2BBEAF2811F62A006D0B9E /* RankViewController.swift */,
 			);
 			path = MusicRanker;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			files = (
 				BB9DC208280A3936000C3860 /* MusicRanker.xcdatamodeld in Sources */,
 				BB9DC202280A3936000C3860 /* ViewController.swift in Sources */,
+				BB2BBEB02811F62B006D0B9E /* RankViewController.swift in Sources */,
 				BBF255E5280B465000AE6041 /* SpotifyConstants.swift in Sources */,
 				BB9DC1FE280A3936000C3860 /* AppDelegate.swift in Sources */,
 				BBF255E3280B382400AE6041 /* LoginViewController.swift in Sources */,

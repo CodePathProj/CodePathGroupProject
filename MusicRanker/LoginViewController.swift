@@ -125,6 +125,7 @@ extension LoginViewController: WKNavigationDelegate {
     }
 
 
+    
     func fetchSpotifyProfile(accessToken: String) {
         let tokenURLFull = "https://api.spotify.com/v1/me"
         let verify: NSURL = NSURL(string: tokenURLFull)!
@@ -166,6 +167,4 @@ extension LoginViewController: WKNavigationDelegate {
         task.resume()
     }
     
-    
-
 }
